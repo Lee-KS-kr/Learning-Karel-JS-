@@ -1,2 +1,8 @@
 //to move karel one step at facing place
 move();
+
+//to turn karel left
+turnLeft();
+
+//to put beeper where karel is
+putBeeper();

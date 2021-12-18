@@ -1,0 +1,105 @@
+//Unit3
+
+//this program makes
+//Karel execute four
+//commands in a row
+function main() {
+   move();
+   putBeeper();
+   move();
+   move();
+}
+
+//This program makes
+//Karel place a square
+//of beepers
+function main(){
+   putBeeper();
+   move();
+   turnLeft();
+   putBeeper();
+   move();
+   turnLeft();
+   putBeeper();
+   move();
+   turnLeft();
+   putBeeper();
+   move();
+   turnLeft();
+   move();
+   move();
+}
+
+//unit3 lesson3
+//change this program
+//so that Karel moves
+//three steps
+// function main(){
+//     move();
+//     move();
+//  }
+ 
+function main() {
+    move();
+    move();
+    move();
+}
+
+//unit3 lesson4
+//change this program
+//so that Karel moves
+//to the top of the
+//ledge
+// function main(){
+//     turnLeft();
+//     move();
+//  }
+ 
+function main(){
+    turnLeft();
+    move();
+    turnLeft();
+    turnLeft();
+    turnLeft();
+    move();
+}
+
+//unit3 lesson5
+//change this program
+//so that Karel puts
+//a beeper on each
+//corner of the first
+//row
+// function main(){
+//     putBeeper();
+//     move();
+//     putBeeper();
+//  }
+ 
+function main(){
+    putBeeper();
+    move();
+    putBeeper();
+    move();
+    putBeeper();
+    move();
+    putBeeper();
+ }
+
+ //unit3 lesson6
+ //change this program
+//so that Karel picks
+//up all three beepers
+// function main() {
+//     move();
+//     pickBeeper();
+//     move();
+//  }
+
+ function main(){
+     move();
+     pickBeeper();
+     pickBeeper();
+     pickBeeper();
+     move();
+ }
