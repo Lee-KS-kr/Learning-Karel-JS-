@@ -1,0 +1,23 @@
+//unit7
+//status
+
+facingNorth()
+facingSouth()
+facingEast()
+facingWest()
+
+//when karel facing place is not blocked
+frontIsClear()
+//else
+frontIsBlocked()
+
+//when karel is not facing some place
+notFacingEast()
+notFacingSouth()
+
+//when karel's left is clear /* it mean that the command turnLeft and move is able
+leftIsClear()
+rightIsClear()
+
+beepersPresent()
+noBeepersPresent()
