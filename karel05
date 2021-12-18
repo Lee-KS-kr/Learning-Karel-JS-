@@ -1,0 +1,39 @@
+//unit6 
+//unit6 lesson1
+
+// Put a beeper in each corner.
+/*function main(){
+   repeat(4){
+      move();
+      move();
+      putBeeper();
+      turnLeft();
+   }
+}
+
+//Make karel place 50 beepers
+
+function place50Beepers() {
+   repeat(50) {
+      // your code here
+   }
+}
+
+function main() {
+   move();
+   place50Beepers();
+   move();  
+}
+*/
+
+function place50Beepers() {
+   repeat(50) {
+      putBeeper();
+   }
+}
+
+function main() {
+   move();
+   place50Beepers();
+   move();  
+}

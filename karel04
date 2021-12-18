@@ -1,0 +1,25 @@
+//unit5 lesson1
+
+//Make karel go outside and
+//pick up the "newspaper"
+function main(){
+    move();
+    move();
+    turnRight();
+    move();
+    turnLeft();
+    move();
+    pickBeeper();
+    turnLeft();
+    turnLeft();
+    move();
+    move();
+    turnRight();
+    move();
+    putBeeper();
+    turnLeft();
+    move();
+    turnRight();
+    turnRight();
+}
+
